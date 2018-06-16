@@ -19,7 +19,7 @@ var books = {
     author: "Ryan Holiday",
     catagory: "Self Help",
     pages: 200
-}
+};
 
 console.log(books);
   
@@ -38,7 +38,16 @@ console.log(books);
  "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
 
-
+var dog = {
+    name: "Max",
+    age: "7",
+    vegeterian: "false",
+    color: ["Black", "White"],
+    speak: function(){
+        return "bark!";
+    }
+};
+console.log("My dog " + dog.name + " is " + dog.age + " years old and likes to " + dog.speak() + " at strangers.");
 
 //An empty object
 
